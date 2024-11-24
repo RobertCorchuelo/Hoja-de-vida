@@ -1,0 +1,98 @@
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #e3e8ef;
+        color: #333;
+    }
+
+    header {
+        background-color: #1e3a5f;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        transition: background-color 0.5s ease;
+    }
+
+    header:hover {
+        background-color: #294a73;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    .profile-pic {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .profile-pic img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 5px solid #1e3a5f;
+        transition: transform 0.5s ease, border-color 0.5s ease;
+    }
+
+    .profile-pic img:hover {
+        transform: scale(1.1);
+        border-color: #294a73;
+    }
+
+    main {
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .section {
+        margin-bottom: 40px;
+    }
+
+    .section h2 {
+        border-bottom: 2px solid #1e3a5f;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        font-size: 1.8rem;
+        transition: color 0.5s ease;
+    }
+
+    .section h2:hover {
+        color: #294a73;
+    }
+
+    .section ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .section ul li {
+        background-color: white;
+        padding: 15px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s, box-shadow 0.2s, background-color 0.5s ease;
+    }
+
+    .section ul li:hover {
+        transform: scale(1.02);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        background-color: #d7e3f5;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px 0;
+        background-color: #1e3a5f;
+        color: white;
+        transition: background-color 0.5s ease;
+    }
+
+    footer:hover {
+        background-color: #294a73;
+    }
